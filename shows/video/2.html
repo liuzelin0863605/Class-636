@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML5视频播放器美化插件 - A5源码</title>
+
+<link rel="stylesheet" href="dist/plyr.css">
+
+<script src="dist/plyr.js"></script>
+<style>
+	body{background-color: hsl(0, 0%, 100%)}
+	.m{ margin-left: auto; margin-right: auto; width: 640px; margin-top: 60px; }
+	h1{text-align: center; margin-top: 40px;}
+	hr{width: 60%;noshade:noshade;}
+</style>
+
+</head>
+<body>
+<div style="background-image: url('shows\&\dist\img\0.gif');">
+	<h1>韩涵宇与徐硕争C位</h1>
+	<hr />
+<div class="m">
+	
+	<video poster="vs.png" controls>
+	  <source src="01dd8f8271bfa5f0dd25874fc4e32385.mp4" type="video/mp4">
+	  <!-- <source src="path/to/video.webm" type="video/webm">-->
+	  <!-- Captions are optional -->
+	</video>
+	<script>plyr.setup();</script>
+</div>
+</div>
+</body>
+</html>
